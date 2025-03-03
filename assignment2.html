@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Assignment</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .menu-items {
+         
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+         background-color: rgb(171, 184, 226);
+            border: 5px solid #0a0909;
+            padding: 20px;
+            width: 30%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .menu-item h3 {
+         display: inline-block;
+            text-align:right;
+            border:5px solid #0a0909;
+            margin-bottom: 60px;
+            margin-left:250px ;
+            
+        }
+
+        @media (max-width: 768px) {
+            .menu-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Our Menu</h2>
+        </div>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3 style="background-color: palevioletred;padding-left: 30px;padding-right: 30px;">Chicken</h3>
+                <p style="background-color: rgb(171, 184, 226);">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="menu-item">
+                <h3 style="color: aliceblue;background-color: red; padding-left: 30px;padding-right: 30px;">Beef</h3>
+                <p style="background-color: rgb(171, 184, 226);">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="menu-item">
+                <h3 style="padding-left: 30px;padding-right: 30px;background-color: rgb(252, 252, 172);">Sushi</h3>
+                <p style="background-color: rgb(171, 184, 226);">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
